@@ -19,16 +19,16 @@ Register
     <div class="preloader"></div>
 
     <!-- Main Header-->
-    <header class="main-header">
-    	<!--Header-Upper-->
+    {{-- <header class="main-header">
+        <!--Header-Upper-->
         <div class="header-upper">
-        	<div class="outer-container">
-            	<div class="clearfix">
-                	<div class="pull-left logo-box">
-                    	<div class="logo"><a href="index-2.html"><img src="images/logo.png" alt="" title=""></a></div>
+            <div class="outer-container">
+                <div class="clearfix">
+                    <div class="pull-left logo-box">
+                        <div class="logo"><a href="index-2.html"><img src="images/logo.png" alt="" title=""></a></div>
                     </div>
 
-                   	<!--Nav Outer-->
+                    <!--Nav Outer-->
                     <div class="nav-outer clearfix">
                         <!--Mobile Navigation Toggler-->
                         <div class="mobile-nav-toggler"><span class="icon flaticon-menu-1"></span></div>
@@ -37,22 +37,22 @@ Register
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-									<li class="dropdown"><a href="{{ route('home') }}">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="about.html">Blog</a></li>
-                                    <li><a href="about.html">Contact</a></li>
+                                    <li class="dropdown"><a href="{{ route('home') }}">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contact</a></li>
 
 
-								</ul>
-							</div>
-						</nav>
-						<div class="outer-box">
-                            <div class="cart-btn"><a href="shopping-cart.html"><span class="icon flaticon-shopping-bag"></span> <span class="count">2</span></a></div>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div class="outer-box">
+
                             <div class="search-box">
                                 <div class="search-box-btn"><span class="icon flaticon-magnifying-glass"></span></div>
                             </div>
                         </div>
-					</div>
+                    </div>
 
                     <!-- Outer btn -->
 
@@ -70,10 +70,12 @@ Register
             <nav class="menu-box">
                 <div class="nav-logo"><a href="index-2.html"><img src="images/logo-2.png" alt="" title=""></a></div>
 
-                <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
+                <ul class="navigation clearfix">
+                    <!--Keep This Empty / Menu will come through Javascript-->
+                </ul>
             </nav>
         </div><!-- End Mobile Menu -->
-    </header>
+    </header> --}}
     <!--End Main Header -->
 
     <!--Page Title-->
@@ -94,7 +96,7 @@ Register
     </section>
     <!--End Page Title-->
 
-     <!-- About Section Two -->
+    <!-- About Section Two -->
     <section class="about-section-two style-three" style="background-image: url(images/background/17.jpg);">
         <div class="parallax-scene parallax-scene-2 anim-icons">
             <span data-depth="0.50" class="parallax-layer icon-dots-2"></span>
@@ -108,8 +110,11 @@ Register
             </div>
 
             <div class="content-box">
-                <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incd idunt labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur cepteur sint occaecat cupidatat.</div>
-                <div class="btn-box"><a href="#" class="theme-btn btn-style-one">Contact Us <span class="flaticon-arrow"></span></a></div>
+                <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incd idunt labore et dolore
+                    magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea
+                    commodo consequat.duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur cepteur sint occaecat cupidatat.</div>
+
             </div>
         </div>
     </section>
@@ -126,7 +131,9 @@ Register
                 </div>
                 <div class="timer-column">
                     <div class="inner-column">
-                        <div class="time-counter"><div class="time-countdown clearfix" data-countdown="2021/07/10"></div></div>
+                        <div class="time-counter">
+                            <div class="time-countdown clearfix" data-countdown="2021/07/10"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -134,7 +141,7 @@ Register
     </section>
     <!-- End Coming Soon -->
 
-    <!-- Speakers Section Three -->
+    <!-- Form Section Three -->
     <section class="speakers-section-three" style="background-image: url(images/background/10.jpg);">
         <div class="parallax-scene parallax-scene-3 anim-icons">
             <span data-depth="0.50" class="parallax-layer icon-dots-2"></span>
@@ -147,27 +154,88 @@ Register
                 <div class="content-column col-lg-6 coll-md-12 col-sm-12">
                     <div class="inner-column">
                         <div class="sec-title light">
-                            <span class="title">Our Speakers</span>
-                            <h2>Performers</h2>
+                            <span class="title">Register</span>
+                            <h2>Become <br> a Participant</h2>
                         </div>
                         <div class="text">
-                            <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd idunt labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo conse quat.duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                            <p>Proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                            <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd idunt labore et dolore magna
+                                aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                exea commodo conse quat.duis aute irure dolor in reprehen derit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur.</p>
+                            <p>Proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut
+                                perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
                         </div>
-                        <div class="btn-box"><a href="#" class="theme-btn btn-style-one">Contact Us <span class="flaticon-arrow"></span></a></div>
+                        <div class="btn-box"><a href="#" class="theme-btn btn-style-one">Contact Us <span
+                                    class="flaticon-arrow"></span></a></div>
                     </div>
                 </div>
 
                 <div class="speakers-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner-column">
-                        <div class="row">
-                            <!-- Form Block -->
-                            <form action="{{route('register')}}" nethod ="post">@csrf
-                            <div class="row">
+                        <div class="card card-body ">
+                            <div class="form-box wow fadeInRight">
 
+                                <div class="sec-form">
+                                    <div class="contact-form text-white">
+
+                                        <form action="{{route('register')}}" method="post">@csrf
+
+                                            @foreach ($errors->all() as $err)
+                                            <p class="text-danger">{{$err}}</p>
+                                          @endforeach
+                                            <div class="row">
+                                                <div class="form-group">
+                                                    <input type="text" name="name" placeholder="Your name"
+                                                        required="">
+                                                </div>
+
+                                                <div class="form-group text-white">
+
+                                                    <select name="gender" id="">
+                                                        <option>Select gender</option>
+                                                        <option value="male">Male</option>
+                                                        <option value="female">Female</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <input type="date" class="form-control" name="date_of_birth"
+                                                        placeholder="Date of_Birth" required="">
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <input type="text"  name="nationality"
+                                                        placeholder="Nationality" required="">
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <input type="text"  name="state"
+                                                        placeholder="State" required="">
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <input type="email"  name="email"
+                                                        placeholder="Email" required="">
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <input type="password" class="form-control"  name="password"
+                                                        placeholder="Password" required="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="password" class="form-control"  name="password_confirmation"
+                                                        placeholder="Confirm Password" required="">
+                                                </div>
+
+                                                <div class="form-group ">
+                                                    <button class="theme-btn btn-style-four" type="submit"
+                                                        name="Submit">REGISTER NOW</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
-
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -190,7 +258,8 @@ Register
                 <div class="gallery-item col-lg-6 col-md-12 col-sm-12 wow fadeIn">
                     <div class="image-box">
                         <figure class="image"><img src="images/gallery/2-1.jpg" alt=""></figure>
-                        <div class="overlay-box"><a href="images/gallery/2-1.jpg" class="lightbox-image" data-fancybox="gallery"><span class="icon flaticon-add"></span></a></div>
+                        <div class="overlay-box"><a href="images/gallery/2-1.jpg" class="lightbox-image"
+                                data-fancybox="gallery"><span class="icon flaticon-add"></span></a></div>
                     </div>
                 </div>
 
@@ -198,7 +267,8 @@ Register
                 <div class="gallery-item col-lg-3 col-md-6 col-sm-12 wow fadeIn" data-wow-delay="400ms">
                     <div class="image-box">
                         <figure class="image"><img src="images/gallery/2-2.jpg" alt=""></figure>
-                        <div class="overlay-box"><a href="images/gallery/2-2.jpg" class="lightbox-image" data-fancybox="gallery"><span class="icon flaticon-add"></span></a></div>
+                        <div class="overlay-box"><a href="images/gallery/2-2.jpg" class="lightbox-image"
+                                data-fancybox="gallery"><span class="icon flaticon-add"></span></a></div>
                     </div>
                 </div>
 
@@ -206,7 +276,8 @@ Register
                 <div class="gallery-item col-lg-3 col-md-6 col-sm-12 wow fadeIn" data-wow-delay="800ms">
                     <div class="image-box">
                         <figure class="image"><img src="images/gallery/2-3.jpg" alt=""></figure>
-                        <div class="overlay-box"><a href="images/gallery/2-3.jpg" class="lightbox-image" data-fancybox="gallery"><span class="icon flaticon-add"></span></a></div>
+                        <div class="overlay-box"><a href="images/gallery/2-3.jpg" class="lightbox-image"
+                                data-fancybox="gallery"><span class="icon flaticon-add"></span></a></div>
                     </div>
                 </div>
 
@@ -214,7 +285,8 @@ Register
                 <div class="gallery-item col-lg-3 col-md-6 col-sm-12 wow fadeIn">
                     <div class="image-box">
                         <figure class="image"><img src="images/gallery/2-4.jpg" alt=""></figure>
-                        <div class="overlay-box"><a href="images/gallery/2-4.jpg" class="lightbox-image" data-fancybox="gallery"><span class="icon flaticon-add"></span></a></div>
+                        <div class="overlay-box"><a href="images/gallery/2-4.jpg" class="lightbox-image"
+                                data-fancybox="gallery"><span class="icon flaticon-add"></span></a></div>
                     </div>
                 </div>
 
@@ -222,7 +294,8 @@ Register
                 <div class="gallery-item col-lg-3 col-md-6 col-sm-12 wow fadeIn" data-wow-delay="400ms">
                     <div class="image-box">
                         <figure class="image"><img src="images/gallery/2-5.jpg" alt=""></figure>
-                        <div class="overlay-box"><a href="images/gallery/2-5.jpg" class="lightbox-image" data-fancybox="gallery"><span class="icon flaticon-add"></span></a></div>
+                        <div class="overlay-box"><a href="images/gallery/2-5.jpg" class="lightbox-image"
+                                data-fancybox="gallery"><span class="icon flaticon-add"></span></a></div>
                     </div>
                 </div>
 
@@ -230,7 +303,8 @@ Register
                 <div class="gallery-item col-lg-6 col-md-12 col-sm-12 wow fadeIn" data-wow-delay="800ms">
                     <div class="image-box">
                         <figure class="image"><img src="images/gallery/2-6.jpg" alt=""></figure>
-                        <div class="overlay-box"><a href="images/gallery/2-6.jpg" class="lightbox-image" data-fancybox="gallery"><span class="icon flaticon-add"></span></a></div>
+                        <div class="overlay-box"><a href="images/gallery/2-6.jpg" class="lightbox-image"
+                                data-fancybox="gallery"><span class="icon flaticon-add"></span></a></div>
                     </div>
                 </div>
             </div>
@@ -261,7 +335,8 @@ Register
 
                     </ul>
                 </div>
-                <div class="copyright-text">© Copyright <a href="#">Mr and Miss Afrique</a> 2021. All Right Reserved.</div>
+                <div class="copyright-text">© Copyright <a href="#">Mr and Miss Afrique</a> 2021. All Right Reserved.
+                </div>
             </div>
         </div>
     </footer>
@@ -279,7 +354,8 @@ Register
             <form method="post" action="http://t.commonsupport.xyz/weston/index.html">
                 <div class="form-group">
                     <fieldset>
-                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
+                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here"
+                            required>
                         <input type="submit" value="Search Now!" class="theme-btn">
                     </fieldset>
                 </div>

@@ -512,7 +512,7 @@
                 </div>
                 <div class="timer-column">
                     <div class="inner-column">
-                        <div class="time-counter"><div class="time-countdown clearfix" data-countdown="2019/10/29"></div></div>
+                        <div class="time-counter"><div class="time-countdown clearfix" data-countdown="2021/07/10"></div></div>
                     </div>
                 </div>
             </div>
@@ -537,9 +537,9 @@
                             <h2>Mr and Miss Melanin Afrique 2021</h2>
                         </div>
                         <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incd idunt labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur cepteur sint occaecat cupidatat.</div>
-                        <div class="btn-box">
+                        {{-- <div class="btn-box">
                             <a href="#" class="theme-btn btn-style-one">Contact Us <span class="flaticon-arrow"></span></a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
@@ -547,7 +547,7 @@
                 <div class="image-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner-column">
                         <div class="image-box">
-                            <figure class="image wow fadeInRight"><a href="images/resource/image-1.jpg" class="lightbox-image" data-fancybox="images"><img src="images/resource/image-1.jpg" alt=""></a></figure>
+                            <figure class="image wow fadeInRight"><img src="/public/images/gallery/pageant-8.png" class="lightbox-image" data-fancybox="images"></figure>
                         </div>
                     </div>
                 </div>

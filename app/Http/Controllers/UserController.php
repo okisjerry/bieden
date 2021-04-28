@@ -2,38 +2,26 @@
 
 namespace App\Http\Controllers;
 
-use App\User;
 use Illuminate\Http\Request;
 
-class WelcomeController extends Controller
+class UserController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-      $users = User::latest()->take(8)->get();
 
-      return view('welcome');
+    public function dashboard()
+    {
+     return view('user.dashboard');
     }
+
 
     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function viewUser($id, $slug)
+    public function create()
     {
-        $users = User::find($id);
-        $images = $users->images;
-        //dd($images);
-        return view('user', compact('user', 'images'));
-
-
+        //
     }
-
 
     /**
      * Store a newly created resource in storage.

@@ -50,7 +50,7 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-								    <li ><a href="{{ route('home') }}">Home</a></li>
+								    <li ><a href="{{ route('welcome') }}">Home</a></li>
                                     <li><a href="#">About</a></li>
 									<li><a href="#">Blog</a></li>
 									<li><a href="#">Contact</a></li>
