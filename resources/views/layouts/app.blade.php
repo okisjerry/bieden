@@ -58,12 +58,11 @@
 							</div>
 						</nav>
 
-						{{-- <div class="outer-box">
-                            <div class="cart-btn"><a href="shopping-cart.html"><span class="icon flaticon-shopping-bag"></span> <span class="count">2</span></a></div>
+						<div class="outer-box">
                             <div class="search-box">
-                                <div class="search-box-btn"><span class="icon flaticon-magnifying-glass"></span></div>
+                                <div class="search-box-btn"><span class="icon flaticon-user  ">Login</span></div>
                             </div>
-                        </div> --}}
+                        </div>
 					</div>
 
                     <!-- Outer btn -->
@@ -125,22 +124,30 @@
 </div>
 <!--End pagewrapper-->
 
-<!--Search Popup-->
+<!--Login Popup-->
 <div id="search-popup" class="search-popup">
     <div class="close-search theme-btn"><span class="fa fa-times"></span></div>
     <div class="popup-inner">
         <div class="overlay-layer"></div>
         <div class="search-form">
-            <form method="post" action="http://t.commonsupport.xyz/weston/index.html">
+            <form method="post" action="{{ route('login') }}"> @csrf
                 <div class="form-group">
-                    <fieldset>
-                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
-                        <input type="submit" value="Search Now!" class="theme-btn">
-                    </fieldset>
+                    <input type="email" class="form-control" name="email"
+                        placeholder="Email" required="">
+                </div>
+
+                <div class="form-group">
+                    <input type="password" class="form-control" name="password"
+                        placeholder="Password" required="">
+                </div>
+
+                <div class="form-group ">
+                    <button class="theme-btn btn-style-four" type="submit"
+                        name="Submit">Login</button>
                 </div>
             </form>
             <br>
-            <h3>Recent Search Keywords</h3>
+            <h3></h3>
 
         </div>
     </div>
