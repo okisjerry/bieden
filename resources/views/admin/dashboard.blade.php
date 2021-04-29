@@ -6,7 +6,7 @@
 @endsection
 @section("content")
 
-{{-- <div class="row">
+<div class="row">
     <div class="col-xl-3 col-lg-6 col-md-6 col-xm-12">
         <div class="card overflow-hidden dash1-card border-0">
             <div class="card-body">
@@ -55,11 +55,11 @@
             <div id="spark4"></div>
         </div>
     </div>
-</div> --}}
+</div>
 <!-- End Row-1 -->
 
 <!-- Row-2 -->
-{{-- <div class="row">
+<div class="row">
     <div class="col-xl-8 col-lg-8 col-md-12">
         <div class="card">
             <div class="card-header">
@@ -157,7 +157,7 @@
             </div>
         </div>
     </div>
-</div> --}}
+</div>
 <!-- End Row-2 -->
 
 <!-- Row-3 -->

@@ -25,6 +25,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::prefix('user')->middleware('auth')->group(function () {
     Route::get('/', 'UserController@dashboard')->name('user.dashboard');
+    Route::get('/', 'UserController@dashboard')->name('add-content');
+
 
 });
 

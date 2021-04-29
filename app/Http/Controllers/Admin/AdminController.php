@@ -3,6 +3,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use App\User;
 
 class AdminController extends Controller
@@ -20,6 +21,12 @@ class AdminController extends Controller
         $users = User::latest()->get();
         return view('admin.all_users', compact('users'));
     }
+
+    public function update(Request $request, User $user)
+    {
+        return view('admin.add_product', compact('categories'));
+    }
+
 
 
 
