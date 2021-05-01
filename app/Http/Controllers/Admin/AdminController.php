@@ -19,13 +19,13 @@ class AdminController extends Controller
     public function view()
     {
         $users = User::latest()->get();
-        return view('admin.all_users', compact('users'));
+        return view('admin.view_contestants', compact('users'));
     }
 
-    public function update(Request $request, User $user)
-    {
-        return view('admin.add_product', compact('categories'));
-    }
+    // public function update(Request $request, User $user)
+    // {
+    //     return view('admin.add_product', compact('categories'));
+    // }
 
 
 

@@ -167,7 +167,8 @@
             <div class="card-header">
                 <h3 class="card-title">Recent Customers</h3>
                 <div class="card-options">
-                    <a href="index.html#" class="option-dots" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fe fe-more-horizontal fs-20"></i></a>
+                    <a href="index.html#" class="option-dots" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fe fe-more-horizontal fs-20"></i></a>
                     <div class="dropdown-menu dropdown-menu-right">
                         <a class="dropdown-item" href="index.html#">Today</a>
                         <a class="dropdown-item" href="index.html#">Last Week</a>

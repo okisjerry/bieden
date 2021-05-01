@@ -25,14 +25,14 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::prefix('user')->middleware('auth')->group(function () {
     Route::get('/', 'UserController@dashboard')->name('user.dashboard');
-    Route::get('/', 'UserController@dashboard')->name('add-content');
-
+    Route::get('/add-content', 'UserController@create')->name('add-content');
+    Route::post('/add-content', 'UserController@update')->name('add-content');
 
 });
 
 
 Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('/', 'Admin\AdminController@dashboard')->name('admin.dashboard');
-    Route::get('/all-users', 'Admin\AdminController@view')->name('admin.all-users');
+    Route::get('/all-users', 'Admin\AdminController@view')->name('admin.view-contestants');
 
 });

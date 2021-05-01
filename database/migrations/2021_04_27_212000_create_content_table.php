@@ -13,8 +13,13 @@ class CreateUserControllersTable extends Migration
      */
     public function up()
     {
-        Schema::create('user_controllers', function (Blueprint $table) {
+        Schema::create('content', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('slug');
+            $table->longText('bio');
+            $table->string('video');
+
             $table->timestamps();
         });
     }

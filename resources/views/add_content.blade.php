@@ -45,20 +45,18 @@
             <form action="{{ route('user.add-content') }}" method="post" enctype="multipart/form-data">@csrf
                 <div id="wizard3">
 
+
+                    @foreach ($users as $user)
                     <section>
                         <div class="control-group form-group">
-                            <label class="form-label">Name</label>
-                            <input type="text" name="name" class="form-control required" placeholder="Name">
+                            <label class="form-label">Bio</label>
+                            <input type="text" name="bio" class="form-control required" placeholder="Bio">
                         </div>
 
-                        <div class="control-group form-group">
-                            <label class="form-label">Description</label>
-                            <input type="text" name="description" class="form-control required" placeholder="Description">
-                        </div>
 
                         <div class="control-group form-group ">
-                            <label class="form-label">Price</label>
-                            <input type="text" name="price" class="form-control required" placeholder="Price">
+                            <label class="form-label">Votes</label>
+                            <input type="{{ $user->votes }}" name="price" class="form-control required" placeholder="Price">
                         </div>
 
                         <div class="control-group form-group ">
@@ -76,6 +74,10 @@
                         </div>
 
 
+                    @endforeach
+
+
+{{--
                         <div class="card-title">
                             Select Categories
                         </div>
@@ -92,7 +94,7 @@
                         </div>
 
 
-                        <button class="btn btn-primary" >Add Product</button>
+                        <button class="btn btn-primary" >Add Product</button> --}}
 
 
                     </section>
