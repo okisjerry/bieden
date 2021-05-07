@@ -25,8 +25,9 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::prefix('user')->middleware('auth')->group(function () {
     Route::get('/', 'UserController@dashboard')->name('user.dashboard');
-    Route::get('/add-content', 'UserController@create')->name('add-content');
-    Route::post('/add-content', 'UserController@update')->name('add-content');
+    Route::get('/add-content', 'UserController@create')->name('user.add-content');
+    Route::post('/update-content', 'UserController@update')->name('user.update-content');
+    Route::post('/upload-video', 'UserController@show')->name('user.upload-content');
 
 });
 

@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -190,16 +192,37 @@
 					</div>
 					<div class="app-sidebar__user">
 						<div class="dropdown user-pro-body text-center">
-							<div class="user-pic">
-								<img src="/assets/images/users/2.jpg" alt="user-img" class="avatar-xl rounded-circle mb-1">
+							<div class="dropdown user-pro-body text-center">
+                                @if (!Auth::user()->image)
+                                   <div class="user-pic">
+                                       <img src="/assets/avatar/avatar_01.png" alt="user-img" class="avatar-xl rounded-circle mb-1">
+                                   </div>
+
+
+                               @else
+                                   <div class="user-pic">
+                                       <img src="/storage/users/{{ Auth::user()->image }}" alt="user-img" class="avatar-xl rounded-circle mb-1">
+                                   </div>
+
+
+                               @endif
+
+
+                           <div class="user-info">
+                               <h5 class=" mb-1">{{ Auth::user()->name }} <i class="ion-checkmark-circled  text-success fs-12"></i></h5>
+                               <span class="text-muted app-sidebar__user-name text-sm">{{  Auth::user()->bio }}</span>
+                               <span class="text-muted app-sidebar__user-name text-sm">{{  Auth::user()->votes }}</span>
+                           </div>
+                       </div>
+
+
+							<div class="user-info">
+							 <h5 class=" mb-1">{{ Auth::user()->name }} <i class="ion-checkmark-circled  text-success fs-12"></i></h5>
+								<span class="text-muted app-sidebar__user-name text-sm">Web Developer</span>
 							</div>
 
-                            @foreach ($users as $user)
-							<div class="user-info">
-								<h5 class=" mb-1">{{ $user->name }}<i class="ion-checkmark-circled  text-success fs-12"></i></h5>
-								<span class="text-muted app-sidebar__user-name text-sm">{{ $user->bio }}</span>
-							</div>
-						</div>
+
+                        </div>
 						<div class="sidebar-navs">
 							<ul class="nav nav-pills-circle">
 								<li class="nav-item" data-placement="top" data-toggle="tooltip" title="Support">
@@ -241,7 +264,7 @@
 							<span class="side-menu__label">View Contestants</span></a>
 						</li>
 						</li>
-						<li class="slide">
+						{{-- <li class="slide">
 							<a class="side-menu__item" data-toggle="slide" href="index-2.html">
 							<svg class="side-menu__icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.88-2.88 7.19-5 9.88C9.92 16.21 7 11.85 7 9z"/><circle cx="12" cy="9" r="2.5"/></svg>
 							<span class="side-menu__label">Map</span><i class="angle fa fa-angle-right"></i></a>
@@ -250,7 +273,7 @@
 								<li><a href="maps3.html" class="slide-item">Mapel Maps</a></li>
 								<li><a href="maps.html" class="slide-item">Vector Maps</a></li>
 							</ul>
-						</li>
+						</li> --}}
 
 
 				</aside>
@@ -455,13 +478,23 @@
 										</div>
 										<div class="dropdown profile-dropdown">
 											<a href="index.html#" class="nav-link pr-0 leading-none" data-toggle="dropdown">
-												<span>
-													<img src="/assets/images/users/2.jpg" alt="img" class="avatar avatar-md brround">
-												</span>
+                                                @if (Auth::user()->image == ' '){
+                                                    <div class="user-pic">
+                                                        <img src="/assets/avatar/avatar_01.png" alt="user-img" class="avatar-xl rounded-circle mb-1">
+                                                    </div>
+                                                }
+
+                                                @else
+                                                    <div class="user-pic">
+                                                        <img src="/storage/users/{{ Auth::user()->image }}" alt="user-img" class="avatar-xl rounded-circle mb-1">
+                                                    </div>
+
+
+                                                @endif
 											</a>
 											<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow animated">
 												<div class="text-center">
-													<a href="index.html#" class="dropdown-item text-center user pb-0 font-weight-bold">{{ $users->name }}</a>
+													<a href="index.html#" class="dropdown-item text-center user pb-0 font-weight-bold"></a>
 													<span class="text-center user-semi-title"></span>
 													<div class="dropdown-divider"></div>
 												</div>
@@ -483,7 +516,7 @@
 
 												</a>
                                                  <form action="{{ route('logout') }}" id="logout-form" method="post" > @csrf
-                                                    @endforeach
+
                                                  </form>
 											</div>
 										</div>
@@ -501,11 +534,11 @@
 								</ol>
 							</div>
 							<div class="page-rightheader">
-								<div class="btn btn-list">
-									<a href="index.html#" class="btn btn-info"><i class="fe fe-settings mr-1"></i> General Settings </a>
+								{{--<div class="btn btn-list">
+
 									<a href="index.html#" class="btn btn-danger"><i class="fe fe-printer mr-1"></i> Print </a>
-									<a href="index.html#" class="btn btn-warning"><i class="fe fe-shopping-cart mr-1"></i> Buy Now </a>
-								</div>
+
+								</div> --}}
 							</div>
 						</div>
 						<!--End Page header-->

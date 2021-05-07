@@ -2,15 +2,25 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
+use DateTime;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
+
 
 class UserController extends Controller
 {
 
     public function dashboard()
     {
-     return view('user.dashboard');
+        $users = User::latest()->get();
+        $dob = new DateTime(Auth::user()->date_of_birth);
+        $now = new DateTime(now());
+        $age = $now->diff($dob)->format('%y');
+
+
+        return view('user.dashboard', compact('users', 'age'));
     }
 
 
@@ -19,9 +29,10 @@ class UserController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create(Request $request, User $user)
+    public function create()
     {
-      return view('add_content');
+
+        return view('user.add_content');
     }
 
     /**
@@ -33,13 +44,12 @@ class UserController extends Controller
     public function update(Request $request, User $user)
     {
 
-        $data = $request->validate([
-            'name' => 'required|string|min:3|max:255',
+        $request->validate([
             'bio' => 'required|string|min:3|max:255',
-            'votes' => 'required|integer',
-
-
+            "image" => 'required|mimes:png,jpg,jpeg',
         ]);
+
+        $user = Auth::user();
 
         if ($request->has('image')) {
             $file = $request->image;
@@ -49,7 +59,26 @@ class UserController extends Controller
 
             $user->image = $file_name;
         }
+        //$user->name = $request->name;
+        $user->bio = $request->bio;
+        $user-> save();
 
+        return back()->with(['success' => 'Content uploaded']);
+    }
+
+    /**
+
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show(Request $request, User $user)
+    {
+        $request->validate([
+            'video' => 'required|mimes:mp4|max:20000',
+
+        ]);
+
+        $user = Auth::user();
 
         if ($request->has('video')) {
             $file = $request->video;
@@ -58,27 +87,11 @@ class UserController extends Controller
             Storage::put('public/users/' . $file_name, fopen($file, 'r+'));
 
             $user->video = $file_name;
+            $user->save();
+
+            return back()->with(['success' => 'Content uploaded']);
         }
 
-        $user->name = $request->name;
-        $user->slug = \Str::slug($request->name);
-        $user->bio = $request->bio;
-        $user->votes = $request->votes;
-        $user->save();
-
-
-        return back()->with(['success' => 'Content uploaded']);
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
     }
 
     /**
