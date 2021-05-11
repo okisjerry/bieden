@@ -24,14 +24,18 @@ class WelcomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function viewUser($id, $slug)
+    public function viewAll()
     {
-        $users = User::find($id);
-        $images = $users->images;
+        $users = User::all();
+        //$images = $users->images;
         //dd($images);
-        return view('user', compact('user', 'images'));
+        return view('view_all', compact('users'));
 
 
+    }
+    public function checkOut()
+    {
+        return view('checkout');
     }
 
 
@@ -52,7 +56,7 @@ class WelcomeController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show()
     {
         //
     }

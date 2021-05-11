@@ -4,14 +4,7 @@
 @section("title")
 
 @endsection
-@section("content")
 
-@extends("layouts.user")
-
-
-@section("title")
-
-@endsection
 @section("content")
 
 
@@ -53,7 +46,7 @@
                                         </span></span>
                                     <span class="mb-0 fs-13 text-muted"><span
                                             class="ml-2 text-success fs-13 font-weight-semibold">
-                                            <li> Born On {{ Auth::user()->date_of_birth}}</li>
+                                            <li> Age: {{ $age}}</li>
                                         </span></span>
                                     <span class="mb-0 fs-13 text-muted"><span
                                             class="ml-2 text-success fs-13 font-weight-semibold">
@@ -78,118 +71,6 @@
     </div>
 
 
-    <div class=" mt-3 col-md-6 ">
-        <div class="card">
-            <div class="card-header">
-                <h3 class="card-title">Revenue by customers in Countries</h3>
-                <div class="card-options">
-                    <a href="index.html#" class="option-dots" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false"><i class="fe fe-more-horizontal fs-20"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="index.html#">Today</a>
-                        <a class="dropdown-item" href="index.html#">Last Week</a>
-                        <a class="dropdown-item" href="index.html#">Last Month</a>
-                        <a class="dropdown-item" href="index.html#">Last Year</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-body">
-                <div class="country-card">
-                    <div class="mb-5">
-                        <div class="d-flex">
-                            <span class=""><img src="assets/images/flags/us.svg" class="w-5 h-5 mr-2" alt="">United
-                                States</span>
-                            <div class="ml-auto"><span class="text-success mr-1"><i
-                                        class="fe fe-trending-up"></i></span><span class="number-font">$45,870</span>
-                                (86%)</div>
-                        </div>
-                        <div class="progress h-2  mt-1">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
-                                style="width: 80%"></div>
-                        </div>
-                    </div>
-                    <div class="mb-5">
-                        <div class="d-flex">
-                            <span class=""><img src="assets/images/flags/in.svg" class="w-5 h-5 mr-2"
-                                    alt="">India</span>
-                            <div class="ml-auto"><span class="text-danger mr-1"><i
-                                        class="fe fe-trending-down"></i></span><span class="number-font">$32,879</span>
-                                (65%)</div>
-                        </div>
-                        <div class="progress h-2  mt-1">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info"
-                                style="width: 60%"></div>
-                        </div>
-                    </div>
-                    <div class="mb-5">
-                        <div class="d-flex">
-                            <span class=""><img src="assets/images/flags/ru.svg" class="w-5 h-5 mr-2"
-                                    alt="">Russia</span>
-                            <div class="ml-auto"><span class="text-success mr-1"><i
-                                        class="fe fe-trending-up"></i></span><span class="number-font">$22,710</span>
-                                (55%)</div>
-                        </div>
-                        <div class="progress h-2  mt-1">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
-                                style="width: 50%"></div>
-                        </div>
-                    </div>
-                    <div class="mb-5">
-                        <div class="d-flex">
-                            <span class=""><img src="assets/images/flags/ca.svg" class="w-5 h-5 mr-2"
-                                    alt="">Canada</span>
-                            <div class="ml-auto"><span class="text-danger mr-1"><i
-                                        class="fe fe-trending-down"></i></span><span class="number-font">$56,291</span>
-                                (69%)</div>
-                        </div>
-                        <div class="progress h-2  mt-1">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-                                style="width: 80%"></div>
-                        </div>
-                    </div>
-                    <div class="mb-5">
-                        <div class="d-flex">
-                            <span class=""><img src="assets/images/flags/ge.svg" class="w-5 h-5 mr-2"
-                                    alt="">Germany</span>
-                            <div class="ml-auto"><span class="text-success mr-1"><i
-                                        class="fe fe-trending-up"></i></span><span class="number-font">$67,357</span>
-                                (73%)</div>
-                        </div>
-                        <div class="progress h-2  mt-1">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-teal"
-                                style="width: 70%"></div>
-                        </div>
-                    </div>
-                    <div class="mb-5">
-                        <div class="d-flex">
-                            <span class=""><img src="assets/images/flags/br.svg" class="w-5 h-5 mr-2"
-                                    alt="">Brazil</span>
-                            <div class="ml-auto"><span class="text-success mr-1"><i
-                                        class="fe fe-trending-up"></i></span><span class="number-font">$34,209</span>
-                                (60%)</div>
-                        </div>
-                        <div class="progress h-2  mt-1">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-indigo"
-                                style="width: 60%"></div>
-                        </div>
-                    </div>
-                    <div class="mb-0">
-                        <div class="d-flex">
-                            <span class=""><img src="assets/images/flags/au.svg" class="w-5 h-5 mr-2"
-                                    alt="">Australia</span>
-                            <div class="ml-auto"><span class="text-success mr-1"><i
-                                        class="fe fe-trending-up"></i></span><span class="number-font">$12,876</span>
-                                (46%)</div>
-                        </div>
-                        <div class="progress h-2  mt-1">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
-                                style="width: 40%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 </div>
 
@@ -240,7 +121,6 @@
 
 <!-- End app-content-->
 
-@endsection
 
 
 @endsection

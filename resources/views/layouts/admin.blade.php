@@ -203,24 +203,15 @@
                                    <div class="user-pic">
                                        <img src="/storage/users/{{ Auth::user()->image }}" alt="user-img" class="avatar-xl rounded-circle mb-1">
                                    </div>
-
-
                                @endif
 
 
                            <div class="user-info">
                                <h5 class=" mb-1">{{ Auth::user()->name }} <i class="ion-checkmark-circled  text-success fs-12"></i></h5>
                                <span class="text-muted app-sidebar__user-name text-sm">{{  Auth::user()->bio }}</span>
-                               <span class="text-muted app-sidebar__user-name text-sm">{{  Auth::user()->votes }}</span>
+
                            </div>
                        </div>
-
-
-							<div class="user-info">
-							 <h5 class=" mb-1">{{ Auth::user()->name }} <i class="ion-checkmark-circled  text-success fs-12"></i></h5>
-								<span class="text-muted app-sidebar__user-name text-sm">Web Developer</span>
-							</div>
-
 
                         </div>
 						<div class="sidebar-navs">

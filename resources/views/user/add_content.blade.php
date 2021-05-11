@@ -13,8 +13,8 @@
     <div class="page-leftheader">
         <h4 class="page-title mb-0">Hi! Welcome Back</h4>
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html#"><i class="fe fe-home mr-2 fs-14"></i>Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="index.html#">User's Profile</a></li>
+            <li class="breadcrumb-item"><i class="fe fe-home mr-2 fs-14"></i>Home</li>
+            <li class="breadcrumb-item active" aria-current="page">User's Profile</li>
         </ol>
     </div>
     <div class="page-rightheader">

@@ -536,7 +536,12 @@
                             <span class="title"></span>
                             <h2>Mr and Miss Melanin Afrique 2021</h2>
                         </div>
-                        <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incd idunt labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur cepteur sint occaecat cupidatat.</div>
+                        <div class="text">
+                            We are happy to present to you the first season of Mr and Miss Melanin Afrique.
+                            It is going to be like none other. This patform will not only make you win once, but you'll be taught to win everyday!
+                            Now, I lke the sound of that. So, hurry now, get registered and stand a chance to win, again and again!
+                            Bonne Chance!
+                        </div>
                         {{-- <div class="btn-box">
                             <a href="#" class="theme-btn btn-style-one">Contact Us <span class="flaticon-arrow"></span></a>
                         </div> --}}
@@ -547,7 +552,7 @@
                 <div class="image-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner-column">
                         <div class="image-box">
-                            <figure class="image wow fadeInRight"><img src="/public/images/gallery/pageant-8.png" class="lightbox-image" data-fancybox="images"></figure>
+                            <figure class="image wow fadeInRight"><img src="images/gallery/contest-mma-2.png" class="lightbox-image" data-fancybox="images"></figure>
                         </div>
                     </div>
                 </div>
@@ -565,19 +570,19 @@
     <section class="shedule-section">
         <div class="auto-container">
             <div class="sec-title">
-                <span class="title">About Conference</span>
-                <h2>Schedule Plan</h2>
+                <span class="title">About Contest</span>
+                <h2>How to Participate</h2>
             </div>
 
             <div class="shedule-tabs tabs-box">
-                <div class="btns-box">
+                {{-- <div class="btns-box">
                     <!--Tabs Box-->
-                    <ul class="tab-buttons clearfix">
+                   <ul class="tab-buttons clearfix">
                         <li class="tab-btn active-btn" data-tab="#tab-1">First Day <span>Feb 20, 2019</span></li>
                         <li class="tab-btn" data-tab="#tab-2">Second Day <span>Feb 20, 2019</span></li>
                         <li class="tab-btn" data-tab="#tab-3">Third Day <span>Feb 20, 2019</span></li>
                     </ul>
-                </div>
+                </div> --}}
 
                 <div class="tabs-content">
 
@@ -586,237 +591,53 @@
                         <!-- Shedule Block -->
                         <div class="shedule-block">
                             <div class="inner-box clearfix">
-                                <figure class="thumbs-box"><img src="images/resource/thumb-1.jpg" alt=""></figure>
+                                <figure class="thumbs-box"><img src="images/gallery/contest-mma-2.png" alt=""></figure>
                                 <div class="content-box">
-                                    <div class="date"><span class="icon far fa-clock"></span>9.00 AM - 10.00 PM</div>
-                                    <h4><a href="shedule.html">Modern Marketing Summit Sydney 2018</a></h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et dolore magna aliqu enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
-                                    <ul class="shedule-info clearfix">
-                                        <li><span>by</span> <a href="#">Samanta Doe</a> CEO of Houz</li>
-                                        <li>Auditorium A</li>
-                                    </ul>
+                                    <div class="date"><span class="icon far fa-clock"></div>
+                                    <h4><a href="#">Step One</a></h4>
+                                    <div class="text">Click on the Register button, fill the form and submit.</div>
+
                                 </div>
-                                <div class="btn-box">
-                                    <a href="shedule.html" class="theme-btn btn-style-three">Read More</a>
-                                </div>
+
                             </div>
                         </div>
 
                         <!-- Shedule Block -->
                         <div class="shedule-block">
                             <div class="inner-box clearfix">
-                                <figure class="thumbs-box"><img src="images/resource/thumb-2.jpg" alt=""></figure>
+                                <figure class="thumbs-box"><img src="images/gallery/contest-mma-2.png" alt=""></figure>
                                 <div class="content-box">
-                                    <div class="date"><span class="icon far fa-clock"></span>9.00 AM - 10.00 PM</div>
-                                    <h4><a href="shedule.html">Modern Marketing Summit Sydney 2018</a></h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et dolore magna aliqu enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
-                                    <ul class="shedule-info clearfix">
-                                        <li><span>by</span> <a href="#">Samanta Doe</a> CEO of Houz</li>
-                                        <li>Auditorium A</li>
-                                    </ul>
+                                    <div class="date"><span class="icon far fa-clock"></span></div>
+                                    <h4><a href="shedule.html">Step Two</a></h4>
+                                    <div class="text">After registering, update your profile by adding a profile
+                                        photo, and a one minute video of yourself modelling; it could be runway modelling or commercial modelling.
+                                        Note that, the product to be modelled MUST be UNBRANDED.
+                                    </div>
+
                                 </div>
-                                <div class="btn-box">
-                                    <a href="shedule.html" class="theme-btn btn-style-three">Read More</a>
-                                </div>
+
                             </div>
                         </div>
 
                         <!-- Shedule Block -->
                         <div class="shedule-block">
                             <div class="inner-box clearfix">
-                                <figure class="thumbs-box"><img src="images/resource/thumb-3.jpg" alt=""></figure>
+                                <figure class="thumbs-box"><img src="images/gallery/contest-mma-2.png" alt=""></figure>
                                 <div class="content-box">
-                                    <div class="date"><span class="icon far fa-clock"></span>9.00 AM - 10.00 PM</div>
-                                    <h4><a href="shedule.html">Modern Marketing Summit Sydney 2018</a></h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et dolore magna aliqu enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
-                                    <ul class="shedule-info clearfix">
-                                        <li><span>by</span> <a href="#">Samanta Doe</a> CEO of Houz</li>
-                                        <li>Auditorium A</li>
-                                    </ul>
+                                    <div class="date"><span class="icon far fa-clock"></span></div>
+                                    <h4><a href="shedule.html">Step Three</a></h4>
+                                    <div class="text">Voila! You're set to win Mr and Miss Melanin Afrique</div>
+
                                 </div>
-                                <div class="btn-box">
-                                    <a href="shedule.html" class="theme-btn btn-style-three">Read More</a>
-                                </div>
+
                             </div>
                         </div>
 
-                        <!-- Shedule Block -->
-                        <div class="shedule-block">
-                            <div class="inner-box clearfix">
-                                <figure class="thumbs-box"><img src="images/resource/thumb-4.jpg" alt=""></figure>
-                                <div class="content-box">
-                                    <div class="date"><span class="icon far fa-clock"></span>9.00 AM - 10.00 PM</div>
-                                    <h4><a href="shedule.html">Modern Marketing Summit Sydney 2018</a></h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et dolore magna aliqu enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
-                                    <ul class="shedule-info clearfix">
-                                        <li><span>by</span> <a href="#">Samanta Doe</a> CEO of Houz</li>
-                                        <li>Auditorium A</li>
-                                    </ul>
-                                </div>
-                                <div class="btn-box">
-                                    <a href="shedule.html" class="theme-btn btn-style-three">Read More</a>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
 
-                    <!--Tab-->
-                    <div class="tab" id="tab-2">
-                        <!-- Shedule Block -->
-                        <div class="shedule-block">
-                            <div class="inner-box clearfix">
-                                <figure class="thumbs-box"><img src="images/resource/thumb-1.jpg" alt=""></figure>
-                                <div class="content-box">
-                                    <div class="date"><span class="icon far fa-clock"></span>9.00 AM - 10.00 PM</div>
-                                    <h4><a href="shedule.html">Modern Marketing Summit Sydney 2018</a></h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et dolore magna aliqu enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
-                                    <ul class="shedule-info clearfix">
-                                        <li><span>by</span> <a href="#">Samanta Doe</a> CEO of Houz</li>
-                                        <li>Auditorium A</li>
-                                    </ul>
-                                </div>
-                                <div class="btn-box">
-                                    <a href="shedule.html" class="theme-btn btn-style-three">Read More</a>
-                                </div>
-                            </div>
-                        </div>
 
-                        <!-- Shedule Block -->
-                        <div class="shedule-block">
-                            <div class="inner-box clearfix">
-                                <figure class="thumbs-box"><img src="images/resource/thumb-2.jpg" alt=""></figure>
-                                <div class="content-box">
-                                    <div class="date"><span class="icon far fa-clock"></span>9.00 AM - 10.00 PM</div>
-                                    <h4><a href="shedule.html">Modern Marketing Summit Sydney 2018</a></h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et dolore magna aliqu enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
-                                    <ul class="shedule-info clearfix">
-                                        <li><span>by</span> <a href="#">Samanta Doe</a> CEO of Houz</li>
-                                        <li>Auditorium A</li>
-                                    </ul>
-                                </div>
-                                <div class="btn-box">
-                                    <a href="shedule.html" class="theme-btn btn-style-three">Read More</a>
-                                </div>
-                            </div>
-                        </div>
 
-                        <!-- Shedule Block -->
-                        <div class="shedule-block">
-                            <div class="inner-box clearfix">
-                                <figure class="thumbs-box"><img src="images/resource/thumb-3.jpg" alt=""></figure>
-                                <div class="content-box">
-                                    <div class="date"><span class="icon far fa-clock"></span>9.00 AM - 10.00 PM</div>
-                                    <h4><a href="shedule.html">Modern Marketing Summit Sydney 2018</a></h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et dolore magna aliqu enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
-                                    <ul class="shedule-info clearfix">
-                                        <li><span>by</span> <a href="#">Samanta Doe</a> CEO of Houz</li>
-                                        <li>Auditorium A</li>
-                                    </ul>
-                                </div>
-                                <div class="btn-box">
-                                    <a href="shedule.html" class="theme-btn btn-style-three">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Shedule Block -->
-                        <div class="shedule-block">
-                            <div class="inner-box clearfix">
-                                <figure class="thumbs-box"><img src="images/resource/thumb-4.jpg" alt=""></figure>
-                                <div class="content-box">
-                                    <div class="date"><span class="icon far fa-clock"></span>9.00 AM - 10.00 PM</div>
-                                    <h4><a href="shedule.html">Modern Marketing Summit Sydney 2018</a></h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et dolore magna aliqu enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
-                                    <ul class="shedule-info clearfix">
-                                        <li><span>by</span> <a href="#">Samanta Doe</a> CEO of Houz</li>
-                                        <li>Auditorium A</li>
-                                    </ul>
-                                </div>
-                                <div class="btn-box">
-                                    <a href="shedule.html" class="theme-btn btn-style-three">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Tab-->
-                    <div class="tab" id="tab-3">
-                        <!-- Shedule Block -->
-                        <div class="shedule-block">
-                            <div class="inner-box clearfix">
-                                <figure class="thumbs-box"><img src="images/resource/thumb-1.jpg" alt=""></figure>
-                                <div class="content-box">
-                                    <div class="date"><span class="icon far fa-clock"></span>9.00 AM - 10.00 PM</div>
-                                    <h4><a href="shedule.html">Modern Marketing Summit Sydney 2018</a></h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et dolore magna aliqu enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
-                                    <ul class="shedule-info clearfix">
-                                        <li><span>by</span> <a href="#">Samanta Doe</a> CEO of Houz</li>
-                                        <li>Auditorium A</li>
-                                    </ul>
-                                </div>
-                                <div class="btn-box">
-                                    <a href="shedule.html" class="theme-btn btn-style-three">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Shedule Block -->
-                        <div class="shedule-block">
-                            <div class="inner-box clearfix">
-                                <figure class="thumbs-box"><img src="images/resource/thumb-2.jpg" alt=""></figure>
-                                <div class="content-box">
-                                    <div class="date"><span class="icon far fa-clock"></span>9.00 AM - 10.00 PM</div>
-                                    <h4><a href="shedule.html">Modern Marketing Summit Sydney 2018</a></h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et dolore magna aliqu enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
-                                    <ul class="shedule-info clearfix">
-                                        <li><span>by</span> <a href="#">Samanta Doe</a> CEO of Houz</li>
-                                        <li>Auditorium A</li>
-                                    </ul>
-                                </div>
-                                <div class="btn-box">
-                                    <a href="shedule.html" class="theme-btn btn-style-three">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Shedule Block -->
-                        <div class="shedule-block">
-                            <div class="inner-box clearfix">
-                                <figure class="thumbs-box"><img src="images/resource/thumb-3.jpg" alt=""></figure>
-                                <div class="content-box">
-                                    <div class="date"><span class="icon far fa-clock"></span>9.00 AM - 10.00 PM</div>
-                                    <h4><a href="shedule.html">Modern Marketing Summit Sydney 2018</a></h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et dolore magna aliqu enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
-                                    <ul class="shedule-info clearfix">
-                                        <li><span>by</span> <a href="#">Samanta Doe</a> CEO of Houz</li>
-                                        <li>Auditorium A</li>
-                                    </ul>
-                                </div>
-                                <div class="btn-box">
-                                    <a href="shedule.html" class="theme-btn btn-style-three">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Shedule Block -->
-                        <div class="shedule-block">
-                            <div class="inner-box clearfix">
-                                <figure class="thumbs-box"><img src="images/resource/thumb-4.jpg" alt=""></figure>
-                                <div class="content-box">
-                                    <div class="date"><span class="icon far fa-clock"></span>9.00 AM - 10.00 PM</div>
-                                    <h4><a href="shedule.html">Modern Marketing Summit Sydney 2018</a></h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et dolore magna aliqu enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
-                                    <ul class="shedule-info clearfix">
-                                        <li><span>by</span> <a href="#">Samanta Doe</a> CEO of Houz</li>
-                                        <li>Auditorium A</li>
-                                    </ul>
-                                </div>
-                                <div class="btn-box">
-                                    <a href="shedule.html" class="theme-btn btn-style-three">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -939,51 +760,56 @@
 
             </div>
 
-            
+
         </div>
     </section>
     <!--End Clients Section-->
     <!-- Fun Fact Section -->
-    <section class="fun-fact-section" style="background-image: url(images/background/2.jpg);">
+    <section class="fun-fact-section" id="contact" style="background-image: url(images/background/17.jpg);">
         <div class="auto-container">
             <div class="fact-counter">
                 <div class="row clearfix">
 
-                    <!--Column-->
-                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
-                        <div class="count-box">
-                            <span class="icon flaticon-layers-1"></span>
-                            <span class="count-text" data-speed="3000" data-stop="1230">0</span>
-                            <h4 class="counter-title">Participants</h4>
+                    <div class="auto-container">
+                        <div class="sec-title text-center">
+                            <span class="title">Contact</span>
+                            <h2>Contact Info</h2>
+                        </div>
+                        <div class="row">
+                            <div class="contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                                <div class="inner-box">
+                                    <span class="icon flaticon-gps"></span>
+                                    <h4>Social Media</h4>
+                                    <ul class="contact-info">
+                                        <li>PO Box 16122 Collins Street West <br>Victoria 8007 Canada</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
+                                <div class="inner-box">
+                                    <span class="icon flaticon-smartphone-with-email"></span>
+                                    <h4>Email Address</h4>
+                                    <ul class="contact-info">
+                                        <li><a href="mailto:westoninfo@example.com">westoninfo@example.com</a></li>
+                                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
+                                <div class="inner-box">
+                                    <span class="icon flaticon-phone-1"></span>
+                                    <h4>Contact No</h4>
+                                    <ul class="contact-info">
+                                        <li><a href="tel:564-3342-1223">(+48) 564-3342-1223</a></li>
+                                        <li><a href="tel:564-3342-1225">(+48) 564-3342-1225</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <!--Column-->
-                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
-                        <div class="count-box">
-                            <span class="icon flaticon-group-profile-users"></span>
-                            <span class="count-text" data-speed="3000" data-stop="20">0</span>
-                            <h4 class="counter-title">Speakers</h4>
-                        </div>
-                    </div>
-
-                    <!--Column-->
-                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
-                        <div class="count-box">
-                            <span class="icon flaticon-cup-of-drink"></span>
-                            <span class="count-text" data-speed="3000" data-stop="15">0</span>
-                            <h4 class="counter-title">Cup of Coffe</h4>
-                        </div>
-                    </div>
-
-                    <!--Column-->
-                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
-                        <div class="count-box">
-                            <span class="icon flaticon-medal"></span>
-                            <span class="count-text" data-speed="3000" data-stop="140">0</span>
-                            <h4 class="counter-title">Awards Win</h4>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

@@ -51,9 +51,8 @@
                             <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
 								    <li ><a href="{{ route('welcome') }}">Home</a></li>
-                                    <li><a href="#">About</a></li>
-									<li><a href="#">Blog</a></li>
-									<li><a href="#">Contact</a></li>
+									<li><a href="#contact">Contact</a></li>
+                                    <li><a href="{{ route('view-all') }}">View Contestants</a></li>
 								</ul>
 							</div>
 						</nav>

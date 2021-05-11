@@ -15,6 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'WelcomeController@index')->name('welcome');
+Route::get('/all-contestants', 'WelcomeController@viewAll')->name('view-all');
+Route::get('/checkout-page', 'WelcomeController@checkOut')->name('checkout');
+
+
+
 
 
 Auth::routes();
